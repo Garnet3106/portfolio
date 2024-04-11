@@ -21,6 +21,34 @@ export default function Home() {
               2022 情報経営イノベーション専門職大学 入学
             </span>
           } />
+          <Title title='スキル表' />
+          <Block
+            title='フロントエンド'
+            description={
+              <div className='flex flex-row gap-2'>
+                <span>JavaScript / TypeScript<br />React<br />React Native / Expo<br />Dart / Flutter</span>
+                <span>★★★★★<br />★★★★☆<br />★★★★☆<br />★★★☆☆</span>
+              </div>
+            }
+          />
+          <Block
+            title='バックエンド'
+            description={
+              <div className='flex flex-row gap-2'>
+                <span>SQL / NoSQL<br />PHP<br />Laravel<br />Google Cloud<br />Firebase</span>
+                <span>★★★☆☆<br />★★★★☆<br />★★★☆☆<br />★★☆☆☆<br />★★☆☆☆</span>
+              </div>
+            }
+          />
+          <Block
+            title='その他'
+            description={
+              <div className='flex flex-row gap-2'>
+                <span>Rust<br />C#</span>
+                <span>★★★★☆<br />★★★★☆</span>
+              </div>
+            }
+          />
           <Title title='成果物' />
           <Block
             title='インターン | はなまる加須'
@@ -32,13 +60,9 @@ export default function Home() {
             }}
           />
           <Block
-            title='業務委託 | あいうえお'
+            title='業務委託 | toC アプリ開発'
             caption='2024-&nbsp;&nbsp;Flutter'
-            description='～アプリのフロントエンドを担当しています。'
-            link={{
-              url: 'https://example.com',
-              text: '公式サイトで見る',
-            }}
+            description='スタートアップ企業でクライアント向けモバイルアプリのフロントエンドを担当しています。'
           />
           <Block
             title='個人開発 | Twillus'
