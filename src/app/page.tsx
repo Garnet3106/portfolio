@@ -11,7 +11,8 @@ export default function Home() {
       <main className='pt-16 w-3/4 max-w-[700px] m-auto'>
         <div className='flex flex-col gap-4 py-4'>
           <Title title='自己紹介' />
-          <span>大学生エンジニア | Web / モバイル / コンピュータ言語処理</span>
+          <span>【がーねっと】大学生エンジニア</span>
+          <span>Web / モバイル / コンピュータ言語処理</span>
           <Block description={
             <span>
               2019 N高等学校 入学
@@ -55,7 +56,7 @@ export default function Home() {
             caption='2022-&nbsp;&nbsp;TypeScript / React Native / Expo / PHP / Laravel / Firebase'
             description='地域創生ポータル「はなまる加須」のモバイルアプリ化に携わり、企画～設計～実装などのさまざまな工程を担当しました。'
             link={{
-              url: 'https://example.com',
+              url: 'https://apps.apple.com/jp/app/はなまる加須/id6472611016',
               text: '公式サイトで見る',
             }}
           />
