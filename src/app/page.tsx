@@ -11,15 +11,18 @@ export default function Home() {
       <main className='pt-16 w-3/4 max-w-[700px] m-auto'>
         <div className='flex flex-col gap-4 py-4'>
           <Title title='自己紹介' />
-          <span>【がーねっと】大学生エンジニア</span>
-          <span>Web / モバイル / コンピュータ言語処理</span>
+          <span>
+            【がーねっと】大学生エンジニア
+            <br />
+            Web / モバイル / コンピュータ言語処理
+          </span>
           <Block description={
             <span>
               2019 N高等学校 入学
               <br />
               2022 N高等学校 卒業
               <br />
-              2022 情報経営イノベーション専門職大学 入学
+              2022 iU 情報経営イノベーション専門職大学 入学
             </span>
           } />
           <Title title='スキル表' />
@@ -54,16 +57,20 @@ export default function Home() {
           <Block
             title='インターン | はなまる加須'
             caption='2022-&nbsp;&nbsp;TypeScript / React Native / Expo / PHP / Laravel / Firebase'
-            description='地域創生ポータル「はなまる加須」のモバイルアプリ化に携わり、企画～設計～実装などのさまざまな工程を担当しました。'
+            description='地域創生ポータル「はなまる加須」のモバイルアプリ化に携わり、企画～設計～実装などのさまざまな工程を担当しました。Webライティングや新規事業の企画にも取り組んでいます。'
             link={{
-              url: 'https://apps.apple.com/jp/app/はなまる加須/id6472611016',
-              text: '公式サイトで見る',
+              url: 'https://prtimes.jp/main/html/rd/p/000000003.000134502.html',
+              text: 'プレスリリースを見る',
             }}
           />
           <Block
-            title='業務委託 | toC アプリ開発'
+            title='業務委託 | 推しマップ'
             caption='2024-&nbsp;&nbsp;Flutter'
-            description='スタートアップ企業でクライアント向けモバイルアプリのフロントエンドを担当しています。'
+            description='推し活アプリ「推しマップ」を提供するスタートアップ企業にてモバイルアプリのフロントエンドを担当しています。'
+            link={{
+              url: 'https://www.oshimeter.com',
+              text: '公式サイトを見る',
+            }}
           />
           <Block
             title='個人開発 | Twillus'
@@ -71,7 +78,7 @@ export default function Home() {
             description='Twitter の画像サムネイルを拡大する Chrome 拡張機能を開発しました。現時点で700以上の総インストール数を獲得しています。'
             link={{
               url: 'https://chromewebstore.google.com/detail/knpbokpcebojngoedkolnmnjghakiadp?hl=ja',
-              text: 'ストアページで見る',
+              text: 'ストアページを見る',
             }}
           />
           <Block
@@ -80,10 +87,11 @@ export default function Home() {
             description='コード品質重視のプログラミング言語 Karin をスクラッチ開発中。字句解析、構文解析やコード生成、型検査などの処理を自身の手で実装しています。'
             link={{
               url: 'https://github.com/orgs/karin-lang/repositories',
-              text: 'GitHub で見る',
+              text: 'GitHub を見る',
             }}
           />
           <Title title='お問い合わせ / SNS' />
+          <span>お仕事のご連絡 / 個人SNSはこちらから</span>
           <Block description={
             <span>
               Email: <a className='underline' href='mailto:contact@garnet.works'>contact@garnet.works</a>
