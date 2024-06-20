@@ -57,7 +57,7 @@ export default function Home() {
           <Block
             title='インターン | はなまる加須'
             caption='2022-&nbsp;&nbsp;TypeScript / React Native / Expo / PHP / Laravel / Firebase'
-            description='地域創生ポータル「はなまる加須」のモバイルアプリ化に携わり、企画～設計～実装などのさまざまな工程を担当しました。Webライティングや新規事業の企画にも取り組んでいます。'
+            description='地域創生ポータル「はなまる加須」のモバイルアプリ化に携わり、企画・設計から実装・運用までの全工程を担当しました。Webライティングや新規事業の企画にも取り組んでいます。'
             link={{
               url: 'https://prtimes.jp/main/html/rd/p/000000003.000134502.html',
               text: 'プレスリリースを見る',
@@ -66,7 +66,7 @@ export default function Home() {
           <Block
             title='業務委託 | 推しマップ'
             caption='2024-&nbsp;&nbsp;Flutter'
-            description='推し活アプリ「推しマップ」を提供するスタートアップ企業にてモバイルアプリのフロントエンドを担当しています。'
+            description='推し活アプリ「推しマップ」を運営するスタートアップ企業にてモバイルアプリ（フロントエンド）を担当しています。'
             link={{
               url: 'https://www.oshimeter.com',
               text: '公式サイトを見る',
@@ -75,7 +75,7 @@ export default function Home() {
           <Block
             title='個人開発 | Twillus'
             caption='2022&nbsp;&nbsp;TypeScript / Extension API'
-            description='Twitter の画像サムネイルを拡大する Chrome 拡張機能を開発しました。現時点で700以上の総インストール数を獲得しています。'
+            description='総インストール数 700 を超える Chrome 拡張機能を開発しました。Twitter のサムネイル画像が切り取られる悩みを解決するために画像表示に関する機能を搭載しました。'
             link={{
               url: 'https://chromewebstore.google.com/detail/knpbokpcebojngoedkolnmnjghakiadp?hl=ja',
               text: 'ストアページを見る',
@@ -84,7 +84,7 @@ export default function Home() {
           <Block
             title='個人開発 | Karin'
             caption='2024-&nbsp;&nbsp;Rust / 自作処理系'
-            description='コード品質重視のプログラミング言語 Karin をスクラッチ開発中。字句解析、構文解析やコード生成、型検査などの処理を自身の手で実装しています。'
+            description='プログラミング言語 Karin をスクラッチ開発中。字句解析・構文解析やコード生成・型検査などの全工程を自身の手で実装しています。「チーム開発の改善」をコンセプトとして設計しました。'
             link={{
               url: 'https://github.com/orgs/karin-lang/repositories',
               text: 'GitHub を見る',
