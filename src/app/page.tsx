@@ -75,7 +75,7 @@ export default function Home() {
           <Block
             title='個人開発 | Twillus'
             caption='2022&nbsp;&nbsp;TypeScript / Extension API'
-            description='総インストール数 700 を超える Chrome 拡張機能を開発しました。Twitter のサムネイル画像が切り取られる悩みを解決するために画像表示に関する機能を搭載しました。'
+            description='総インストール数 800 を超える Chrome 拡張機能を開発しました。Twitter のサムネイル画像が切り取られる悩みを解決するために画像表示に関する機能を搭載しました。'
             link={{
               url: 'https://chromewebstore.google.com/detail/knpbokpcebojngoedkolnmnjghakiadp?hl=ja',
               text: 'ストアページを見る',
