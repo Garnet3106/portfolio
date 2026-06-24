@@ -1,6 +1,5 @@
 import Block from '@/components/Block';
 import Title from '@/components/Title';
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -12,9 +11,7 @@ export default function Home() {
         <div className='flex flex-col gap-4 py-4'>
           <Title title='自己紹介' />
           <span>
-            【がーねっと】大学生エンジニア
-            <br />
-            Web / モバイル / コンピュータ言語処理
+            【がーねっと】Web/モバイルエンジニア
           </span>
           <Block description={
             <span>
@@ -23,6 +20,8 @@ export default function Home() {
               2022 N高等学校 卒業
               <br />
               2022 iU 情報経営イノベーション専門職大学 入学
+              <br />
+              2026 iU 情報経営イノベーション専門職大学 卒業
             </span>
           } />
           <Title title='スキル表' />
@@ -40,7 +39,7 @@ export default function Home() {
             description={
               <div className='flex flex-row gap-2'>
                 <span>SQL / NoSQL<br />PHP<br />Laravel<br />Google Cloud<br />Firebase</span>
-                <span>★★★☆☆<br />★★★★☆<br />★★★☆☆<br />★★☆☆☆<br />★★☆☆☆</span>
+                <span>★★★☆☆<br />★★★★☆<br />★★★☆☆<br />★★☆☆☆<br />★★★☆☆</span>
               </div>
             }
           />
@@ -64,9 +63,9 @@ export default function Home() {
             }}
           />
           <Block
-            title='業務委託 | 推しマップ'
-            caption='2024-&nbsp;&nbsp;Flutter'
-            description='推し活アプリ「推しマップ」を運営するスタートアップ企業にてモバイルアプリ（フロントエンド）を担当しています。'
+            title='業務委託 | 推しメーター'
+            caption='2024-&nbsp;&nbsp;Flutter / React / Firebase'
+            description='「推し活」をベースに事業展開するスタートアップ企業のアプリ開発を担当しています。Flutter / Reactアプリの開発・保守に携わっています。'
             link={{
               url: 'https://www.oshimeter.com',
               text: '公式サイトを見る',
@@ -75,7 +74,7 @@ export default function Home() {
           <Block
             title='個人開発 | Twillus'
             caption='2022&nbsp;&nbsp;TypeScript / Extension API'
-            description='総インストール数 800 を超える Chrome 拡張機能を開発しました。Twitter のサムネイル画像が切り取られる悩みを解決するために画像表示に関する機能を搭載しました。'
+            description='Twitter上のイラストや写真を拡大表示して鑑賞できるChrome拡張機能を開発しました。2026年時点で合計1,700インストールを超えています。'
             link={{
               url: 'https://chromewebstore.google.com/detail/knpbokpcebojngoedkolnmnjghakiadp?hl=ja',
               text: 'ストアページを見る',
@@ -98,7 +97,7 @@ export default function Home() {
               <br />
               GitHub: <a className='underline' href='https://github.com/Garnet3106'>Garnet3106</a>
               <br />
-              Twitter: <a className='underline' href='https://twitter.com/GarnetSoftware'>@GarnetSoftware</a>
+              Twitter: <a className='underline' href='https://twitter.com/Garnet3106'>@Garnet3106</a>
             </span>
           } />
         </div>
